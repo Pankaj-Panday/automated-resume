@@ -1,0 +1,20 @@
+{
+  "name": "automated-resume-upload",
+  "module": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "bun run index.js",
+    "dev": "bun --hot run index.js"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@googleapis/drive": "^8.14.0",
+    "chokidar": "^4.0.1",
+    "mime-types": "^2.1.35"
+  }
+}
